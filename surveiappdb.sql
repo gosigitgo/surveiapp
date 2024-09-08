@@ -808,35 +808,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 REPLACE INTO `user` (`id_user`, `email`, `username`, `nama`, `password`, `verified`, `status`, `created`, `avatar`, `default_page_type`, `default_page_url`, `default_page_id_module`, `default_page_id_role`) VALUES
 	(1, 'sigit.kemke@gmail.com', 'admin', 'Sigit Wibowo', '$2y$10$pp.DC8Cfkw1rpeUmTbD/tOHUyOEhr3gGSwQfmLsaviaHqKWOOsD9W', 1, 'active', '2021-01-01 08:09:30', 'SIGIT_SQUARE_SMALL2.jpg', 'id_module', '', 64, 1),
 	(2, 'user.administrasi@gmail.com', 'user', 'User Administrasi', '$2y$10$mULSmqshWmi/SpxVvoEwPe8/ZxJRKyQLVJusxiAYneFycNYJDhjKe', 1, 'active', '2021-01-01 08:10:11', 'administrator.png', 'id_role', '', 5, 2),
-	(3, 'superuser@gmail.com', 'superuser', 'Super User', '$2y$10$WKtoNg.3RKbMYCM4ypYQx.5/5/W60faz8T2Kxc/XDE1h.bIL/Icg2', 1, 'active', '2021-01-01 08:11:15', '', NULL, NULL, 5, NULL),
-	(4, 'andi@email.com', 'andi', 'Andi Rahmawan', '$2y$10$lOHMjjhdPwF4pN3clFXzO.NOvfHHxFiWPd28LBqsEoUzgWmpJ8qHm', 1, 'active', '0000-00-00 00:00:00', '', NULL, NULL, 5, NULL),
-	(5, 'anton7@gmail.com', 'anton', 'Anton', '$2y$10$2kVnNqe47cx9neJH7Ea4DuPIGT5YOXFgI8IooC2Q3fjviLRCBXXUS', 1, 'active', '2021-03-30 21:53:04', '', NULL, NULL, 5, NULL),
-	(6, 'nuraulia@gmail.com', 'nuraulia', 'Nur Aulia', '$2y$10$zKW75Z9ZzZ7qJcwqsRQz7uLOa8mRKI7humt7kjx4wuv6dFL5XS5ZO', 1, 'active', '2021-04-02 19:47:48', '', NULL, NULL, 5, NULL),
-	(7, 'budirahmawan@yahoo.com', 'budirahmawan', 'Budi Rahmawan', '$2y$10$pDstZhC1c0UDpguhDu1irueU3WQPnyWBZmWwJ9bk2AX8Ll16ucHBC', 1, 'active', '2021-04-02 19:57:02', '', NULL, NULL, 5, NULL),
-	(8, 'bima.s@gmail.com', 'bimasiregar', 'Bima Siregar', '$2y$10$wrYs5/7T7lix12img/1jEe6w7H5igm6iwSURN2h4Vw4..SdkvVErS', 1, 'active', '2021-04-02 20:04:00', '', NULL, NULL, 5, NULL),
-	(9, 'dian.handayani@yahoo.com', 'dianhandayani', 'Dian Handayani', '$2y$10$a6O0oNc39keF3XfAY9VSrutvPfOIx4vR0IZwaDt7Xa4kXsi0xJwVm', 1, 'active', '2021-04-02 20:05:50', '', NULL, NULL, 5, NULL),
-	(10, 'tendianshori@gmail.com', 'tendianshori', 'Tendi Anshori', '$2y$10$M8EifxexmYD5m72iL.XcXuRWgxMHSxcvsbU3mZYpq7RkLJZphvwe6', 1, 'active', '2021-04-02 20:08:57', '', NULL, NULL, 5, NULL),
-	(11, 'tantiirawati@gmail.com', 'tantiirawati', 'Tanti Irawati', '$2y$10$8.da3wFrrNzVayqmvXJElu2pwas3Ln7r1uwORXRQNt2S9IY6AnaHi', 1, 'active', '2021-04-02 20:35:06', '', NULL, NULL, 5, NULL),
-	(12, 'sitiasbuqi@gmail.com', 'sitiasbuqi', 'Siti Asbuqi', '$2y$10$ukO9IWg62NIrNmUh89yKxulroJg2S0Hifk6vCh8A969bolevh5gy6', 1, 'active', '2021-04-03 06:27:05', '', NULL, NULL, 5, NULL),
-	(13, 'dianmaryanti@gmail.com', 'dianmaryanti', 'Dian Maryanti', '$2y$10$SXf.VlrgV.DYU.55yxwTWO7pbky1ApbO7J0Q5ItoQW.Hcu87NkmL.', 1, 'active', '2021-04-03 06:29:12', '', NULL, NULL, 5, NULL),
-	(14, 'suryaakbar@gmail.com', 'suryaakbar', 'Surya Akbar', '$2y$10$x8sXRGgkkqU.7UIZwCKEuesfFV1Dj34W3BSeJ6roUZDeUEpXXsA0a', 1, 'active', '2021-04-03 06:31:05', '', NULL, NULL, 5, NULL),
-	(15, 'aryawisesa@gmail.com', 'aryawisesa', 'Arya Wisesa', '$2y$10$kJVAQCo2MOz2yKTTk3xXCOz5x2jqLi/EzVEe9eYoFoPfWDMSAF/nG', 1, 'active', '2021-04-03 06:33:08', '', NULL, NULL, 5, NULL),
-	(16, 'roniwijaya@gmail.com', 'roniwijaya', 'Roni Wijaya', '$2y$10$2A0dSTTarYxaIux2/UJ1UOQ1BW2B6OhNmCgLJrnR18YYBuGWGQdi.', 1, 'active', '2021-04-03 06:35:13', '', NULL, NULL, 5, NULL),
-	(17, 'dimasandrianto@gmail.com', 'dimasandrianto', 'Dimas Andrianto', '$2y$10$8ZhPrnQFpH.9Fu4IPLnOb.Kb0pglI9h3FDegRKgKfXcwVAonRce/.', 1, 'active', '2021-04-03 09:52:11', '', NULL, NULL, 5, NULL),
-	(18, 'herusantosa@gmail.com', 'herusantosa', 'Heru Santosa', '$2y$10$Pyw9MtT.0RRqz19JY/OBpuo1nCunOs6X92olSxuBA3sWeTEszDASu', 1, 'active', '2021-04-18 07:08:03', '', NULL, NULL, 5, NULL),
-	(19, 'jokosuanto@gmail.com', 'jokosuanto', 'Joko Suanto', '$2y$10$MSJ6K6ahhVRQDryJlqXTiOFNl1iayox4mssTRjfyHD1cHpoaVW/0i', 1, 'active', '2021-04-18 07:10:02', '', NULL, NULL, 5, NULL),
-	(20, 'kamalhasan@gmail.com', 'kamalhasan', 'Kamal Hasan', '$2y$10$S3NUIiUB495HwB.Nl9EM..UNF98bkauzBsQILtE2mMZKtfM156gRG', 1, 'active', '2021-04-18 07:11:40', '', NULL, NULL, 5, NULL),
-	(21, 'liliandriani@gmail.com', 'liliandriani', 'Lili Andriani', '$2y$10$HN9e/4BDfb0UprW8PSe2P.YwBW50iGNaPRmkltoUKYP0u.TiXosAO', 1, 'active', '2021-04-18 07:13:08', '', NULL, NULL, 5, NULL),
-	(22, 'mindahuami@gmail.com', 'mindahuami', 'Minda Huami', '$2y$10$Fznv.ldSwUQg/NkbPbiVyujVsod18VZO9Dp6lD0udx1ElqczI6zWm', 1, 'active', '2021-04-18 07:15:23', '', NULL, NULL, 5, NULL),
-	(23, 'nanasatria@gmail.com', 'nanasatria', 'Nana Satria', '$2y$10$SDjnwLJoVA.iLDULFFKtnugw6faZiyMCxTUAIARLwVksrMO2yoNLa', 1, 'active', '2021-04-18 07:17:27', '', NULL, NULL, 5, NULL),
-	(24, 'omnirasti@gmail.com', 'omnirasti', 'Omni Rasti', '$2y$10$O0x2MM6IwxJZbLnDkPL0DOJGhWSBWWBQnNqDgfRR4ZSphiHe7iTPe', 1, 'active', '2021-04-18 07:21:07', '', NULL, NULL, 5, NULL),
-	(25, 'titokurniawan@gmail.com', 'titokurniawan', 'Tito Kurniawan', '$2y$10$GX97B8hJn5lyyI7tbeQ5duzi.mWsPJ5LdR.5fwwyw.O6jby6Ti6A2', 1, 'active', '2021-04-18 07:25:14', '', NULL, NULL, 5, NULL),
-	(26, 'umarsaid@gmail.com', 'umarsaid', 'Umar Said', '$2y$10$tBM1ChiNZZScnkxY/b0zoenyw.MUPcsU.UpAjhXQvxQlV.rpoNSu.', 1, 'active', '2021-04-18 07:27:03', '', NULL, NULL, 5, NULL),
-	(27, 'varelhasan@gmail.com', 'varelhasan', 'Varel Hasan', '$2y$10$X9jfXihkrtIOmditlm76PeQFoxz92/Byw3FzTQ95mh6S/PRgfhNw2', 1, 'active', '2021-04-18 07:28:36', '', NULL, NULL, 5, NULL),
-	(28, 'wahyudian@gmail.com', 'wahyudian', 'Wahyu Dian', '$2y$10$ool55iYZ2PyI/e50sRFp/eVmGO8F.9KwBOLISHlaqgYLiDnshKOuu', 1, 'active', '2021-04-18 07:31:49', '', NULL, NULL, 5, NULL),
-	(29, 'diniaminati@gmail.com', 'diniaminati', 'Dini Aminati', '$2y$10$imPwQ1S0iMLNrB/lU6mcw.b0fRV0jHel.yCLy3vwRtzSHVx9EKWxu', 1, 'active', '2021-04-18 07:34:30', '', NULL, NULL, 5, NULL),
-	(30, 'putraarif@gmail.com', 'putraarif', 'Putra Arif', '$2y$10$Qhxnz0Isq9tGLcUYLAD3xOh50PqMnCf.twiVW7F6Jb93N4VmovtVm', 1, 'active', '2021-04-18 07:41:10', '', NULL, NULL, 5, NULL),
-	(52, 'maxitech7@gmail.com', 'maxitech7', 'Maxitech7', '$2y$10$vV3KYccGdWgiMc2enwJB6ubiqz3jX9jGq5H11lMZN9GeQUGirgCWm', 1, 'active', '2023-06-02 13:15:05', '', 'id_module', '{{BASE_URL}}builtin/user/edit?id=1', 5, 2);
+	(3, 'superuser@gmail.com', 'superuser', 'Super User', '$2y$10$WKtoNg.3RKbMYCM4ypYQx.5/5/W60faz8T2Kxc/XDE1h.bIL/Icg2', 1, 'active', '2021-01-01 08:11:15', '', NULL, NULL, 5, NULL);
 
 -- Dumping structure for table surveiappdb.user_login_activity
 DROP TABLE IF EXISTS `user_login_activity`;
